@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Registration</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
-    <form action="" method="post">
+
+
+    <form action="process.php" method="post">
+<h1>Registration</h1>
   <div class="container text-center">
   <div class="row align-items-start">
     <div class="col-md-2">
@@ -16,7 +19,7 @@
     <div class="col-md-8 bg-info p-5 m-5" >
     <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Name</label>
-  <input type="email" class="form-control" name="name" id="exampleFormControlInput1" placeholder="name">
+  <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="name">
 </div>
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email</label>
@@ -24,9 +27,9 @@
 </div>
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Contact</label>
-  <input type="email" class="form-control" name="contact" id="exampleFormControlInput1" placeholder="contact">
+  <input type="tel" class="form-control" name="contact" id="exampleFormControlInput1" placeholder="contact">
 </div>
-<button type="submit" class="btn btn-success">Submit</button>
+<button type="submit" class="btn btn-success" name="submit">Submit</button>
 
 
     </div>
